@@ -1,7 +1,7 @@
 output "bucket_name" {
-  value = aws_s3_bucket.my_bucket.id
+  value = aws_s3_bucket.sentinel_test_bucklet.id
 }
 
 output "bucket_arn" {
-  value = aws_s3_bucket.my_bucket.arn
+  value = aws_s3_bucket.sentinel_test_bucklet.arn
 }
